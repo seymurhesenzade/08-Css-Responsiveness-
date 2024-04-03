@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Catamaran", sans-serif;
+}
+
+//    HEADER 1
+
+header {
+  background-color: rgb(97, 25, 25);
+  text-align: center;
+}
+header {
+  .logo {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.container {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+}
+nav {
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+}
+nav {
+  ul {
+    li {
+      a {
+        color: gray;
+        transition: 0.5s;
+
+        &:hover {
+          color: rgb(198, 194, 194);
+        }
+      }
+    }
+  }
+}
+// SECTION 1
